@@ -21,7 +21,7 @@ def client():
     yield client
 
 
-
+# I tested and removed the assert=False
 def test_health(client):
     response = client.get('/')
     assert response.status_code == 200
