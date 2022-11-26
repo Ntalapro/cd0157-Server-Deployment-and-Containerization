@@ -1,0 +1,13 @@
+EXTERNAL-IP = aeb40c3cdbb1c4ab6b0733e9e5df424e-1230561173.us-east-2.elb.amazonaws.com
+________________________________________________________
+curl --request GET 'aeb40c3cdbb1c4ab6b0733e9e5df424e-1230561173.us-east-2.elb.amazonaws.com/contents' -H "Authorization: Bearer ${TOKEN}" | jq 
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    72  100    72    0     0     50      0  0:00:01  0:00:01 --:--:--    50
+{
+  "email": "ncosanetshepiso@gmail.com",
+  "exp": 1670669005,
+  "nbf": 1669459405
+}
+
